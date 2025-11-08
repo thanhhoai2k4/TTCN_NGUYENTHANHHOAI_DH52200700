@@ -74,4 +74,31 @@ Các đặt trưng bị mất đi khi scale lại từ ảnh gốc:
 Sau khi em tham khảo: 1 kỹ thuật dự đoán ảnh là [tiled](https://docs.ultralytics.com/vi/guides/sahi-tiled-inference/#import-modules-and-download-resources) cuả ultralytic thì em có nghĩ ra 1 cách giải quyết là. Thay vì chúng ta tăng kích thước của input model. Thì sao chúng ta không THực hiện cắt ảnh ra theo từng vùng để có thể tăng kích thước của các đối tượng. Sau đó em viết 1 đoạn mã để tạo ra được dữ liệu cắt theo 1 cửa sổ trược trên ảnh. Dataset em lưu ở [kaggle](https://www.kaggle.com/datasets/mthcknng/floor-plan-dataset).
 
 Kết quả:
-- 
+
+
+
+<table>
+  <tr>
+    <td>
+      <img src="images/image003.png" alt="Ảnh 3" width="700px">
+    </td>
+    <td>
+      <img src="images/image004.png" alt="Ảnh 4" width="700px">
+    </td>
+  </tr>
+</table>
+
+
+
+Nhìn vào kết quả trên. hầu hết các đối tượng được nhận diện đúng và chính xác. Chỉ có 1 số các đối tượng rìa tường ở bên ngoài đả sai. Em sẽ có chính sách cải cách độ chích sát của các model ở tương lai.
+
++ Quan sát và đem những ảnh dự đoán hỏng nhiều. Vào huấn luyệ lại 1 lần nữa.
+
+Note: Dữ liệu là quan trọng nhất. Cho dù model tốt đến đâu.
+
+
+
+## CV Tuần sau
+
+- Thực hiện chuyển đổi các đối tượng vào trong revit.
+- Xây dựng 1 package cho nhiệm vụ này.
