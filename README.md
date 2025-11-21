@@ -102,3 +102,16 @@ Note: Dữ liệu là quan trọng nhất. Cho dù model tốt đến đâu.
 
 - Thực hiện chuyển đổi các đối tượng vào trong revit.
 - Xây dựng 1 package cho nhiệm vụ này.
+
+
+
+## Hoc Django.
+Những thứ đả học:
+- Cài đặt, Cấu hình dự án cho việc gỡ lổi,
+- Tạo file cài đặt chung cho việc sử dụng ở những thiết bị khác
+- Hiểu được luồn flow của dữ liệu đi
+  !(anh mau)[images/django-backbone (1).png]
+- kết nối được cơ sở dữ liêu: ở đây em sử dụng postgresql. Vì nó hổ trợ nhiều thứ hơn là các hệ quản trị cơ sở dữ liệu khác.
+- Em có viết 1 đoạn mã để khi người dùng gửi file ảnh và thực hiện detecntion:
+  !(anh mau)[images/django-backbone (1).png]
+- Sử dụng kế thừa giao diện.
