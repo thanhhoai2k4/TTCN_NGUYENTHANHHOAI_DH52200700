@@ -110,8 +110,12 @@ Những thứ đả học:
 - Cài đặt, Cấu hình dự án cho việc gỡ lổi,
 - Tạo file cài đặt chung cho việc sử dụng ở những thiết bị khác
 - Hiểu được luồn flow của dữ liệu đi
-  !(anh mau)[images/django-backbone (1).png]
+<img src="images/django-backbone (1).png" alt="Ảnh 3" width="700px">
 - kết nối được cơ sở dữ liêu: ở đây em sử dụng postgresql. Vì nó hổ trợ nhiều thứ hơn là các hệ quản trị cơ sở dữ liệu khác.
 - Em có viết 1 đoạn mã để khi người dùng gửi file ảnh và thực hiện detecntion:
-  !(anh mau)[images/django-backbone (1).png]
+<img src="images/Adobe Express - Screen Recording 2025-11-21 131007.gif" alt="Ảnh 3" width="700px">
 - Sử dụng kế thừa giao diện.
+
+Tài liệu học:
+  - Sách hướng dẩn TÀI LIỆU HƯỚNG DẪN THỰC HÀNH PHÁT TRIỂN ỨNG DỤNG WEB VỚI PYTHON, DJANGO VÀ POSTGRESSQL: [link](laptrinhwebvoidianjgo.pdf)
+  - Pylesson: seri hương dẩn lập trình với django [link](https://pylessons.com/django-website)
